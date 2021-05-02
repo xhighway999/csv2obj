@@ -286,6 +286,7 @@ int main(int argc, char **argv) {
   walls = up(walls);
 
   if (walls == "TRUE" || walls == "1" || walls == "ON") {
+    wall = true;
   }
 
   std::ifstream iffile(csvPath);
